@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DZ2</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <th>Ime</th>
+        <th>Prezime</th>
+        <th>JMBG</th>
+      </tr>
+      <tr>
+        <td>Marko</td>
+        <td>Markovic</td>
+        <td>13059962231123</td>
+      </tr>
+      <tr id="secondRow">
+        <td>Darko</td>
+        <td>Petrovic</td>
+        <td>22079952231123</td>
+      </tr>
+      <tr>
+        <td>Stefan</td>
+        <td>Milicic</td>
+        <td>15119832231423</td>
+      </tr>
+    </table>
+
+    <form action="" class="forma">
+      <label for="inputIme">
+        Ime:
+        <input type="text" name="inputIme" id="inputIme" required />
+      </label>
+      <label for="inputPrezime">
+        Prezime:
+        <input type="text" name="inputPrezime" id="inputPrezime" required />
+      </label>
+      <label for="inputJmbg">
+        JMBG:
+        <input type="number" name="inputJmbg" id="inputJmbg" required />
+        <span class="validity"></span>
+      </label>
+      <input class="submitDugme" type="submit" value="Potvrdi" />
+    </form>
+  </body>
+</html>
