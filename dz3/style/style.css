@@ -1,0 +1,250 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f7fff7;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.25s ease-in-out;
+  font-weight: bold;
+}
+
+input,
+h5 {
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#logo-moto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo-moto > h1 {
+  font-weight: 200;
+  color: #795642;
+}
+
+#logo {
+  width: 150px;
+}
+
+nav {
+  margin-top: 50px;
+  width: 75%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #819ea6;
+  border-radius: 20px;
+}
+
+.nav-link {
+  width: 80px;
+  text-align: center;
+  font-weight: 200;
+  color: white;
+}
+.nav-link:hover {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#registracija {
+  padding: 20px;
+  width: 75%;
+  background-color: #f6f6f6;
+  margin: auto;
+  border-radius: 20px;
+}
+
+#registracija > h3 {
+  margin: auto;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#registracijaForma {
+  width: 300px;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #819ea6;
+  background-color: #f6f6f6;
+}
+
+label > input,
+label > select {
+  margin-left: auto;
+}
+label > label {
+  margin-left: 2rem;
+}
+
+#registracijaForma > input[type='submit'] {
+  display: block;
+  margin: auto !important;
+}
+
+#radioWrapper {
+  margin-left: auto;
+  display: flex;
+}
+
+#radioWrapper > label {
+  margin-right: 10px;
+}
+
+#proizvodi,
+#vesti {
+  padding: 1rem 4rem;
+}
+
+#proizvodi,
+#vesti {
+  display: flex;
+  flex-direction: column;
+}
+#proizvodiWrapper,
+#vestiWrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.proizvod,
+.vest {
+  height: 540px;
+  flex: 0 0 calc(33.333333% - 6rem);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 2rem;
+  margin-right: 6rem;
+  border-radius: 20px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.proizvodSlika {
+  width: 100%;
+}
+.vestSlika {
+  height: 200px;
+}
+
+.proizvodSadrzaj {
+  height: 200px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+}
+
+.naslov {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.vestSadrzaj {
+  padding: 0.5rem;
+  height: 400px;
+}
+
+.vestSadrzaj > p {
+  margin: 0 1rem;
+  height: 300px !important;
+  overflow: hidden;
+}
+
+.proizvodCena {
+  text-align: right;
+  font-weight: bold;
+  color: #ff6b6b;
+  margin-top: auto;
+}
+
+.kolicinaLabel {
+  display: flex;
+  justify-content: flex-start !important;
+}
+
+.proizvodKolicina {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  margin-left: 3.5rem;
+  margin-right: 0.5rem;
+}
+
+button,
+input[type='submit'] {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #819ea6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+button:hover,
+input[type='submit']:hover {
+  background-color: #3e8e41;
+}
+
+button:active,
+input[type='submit']:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translateY(4px);
+}
+#footer {
+  background-color: #819ea6;
+  padding: 2rem;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.16);
+  font-size: small;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #795642;
+}

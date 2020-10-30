@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DZ3</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo-moto">
+        <img id="logo" src="./style/logo.png" alt="Logo" />
+        <h1>Kućni ljubimci znaju da nanjuše pravu stvar!</h1>
+      </div>
+      <nav>
+        <a class="nav-link" href="index.html">Početna</a>
+        <a class="nav-link" href="index.html">Hrana</a>
+        <a class="nav-link" href="index.html">Oprema</a>
+        <a class="nav-link" href="index.html">Preparati</a>
+        <a class="nav-link" href="#proizvodi">Akcija</a>
+        <a class="nav-link" href="#vesti">Vesti</a>
+      </nav>
+    </header>
+    <main>
+      <section id="registracija">
+        <h3>Registracija</h3>
+        <form id="registracijaForma">
+          <label for="imePrezime">
+            Ime i prezime:
+            <input type="text" name="imePrezime" id="" />
+          </label>
+          <label for="datumRodjenja">
+            Datum rođenja:
+            <input type="date" name="datumRodjenja" id="" />
+          </label>
+          <label id="pol" for="pol">
+            Pol:
+            <div id="radioWrapper">
+              <label for=""
+                >M
+                <input type="radio" name="pol" id="" />
+              </label>
+              <label for=""
+                >Ž
+                <input type="radio" name="pol" id="" />
+              </label>
+            </div>
+          </label>
+          <label for="eMail">
+            E-mail:
+            <input type="email" name="eMail" id="" validate />
+          </label>
+          <label for="password">
+            Lozinka:
+            <input type="password" name="password" id="" />
+          </label>
+          <label for="grad">
+            Grad:
+            <select name="grad" id="">
+              <option value="Beograd">Beograd</option>
+              <option value="Novi Sad">Novi Sad</option>
+              <option value="Niš">Niš</option>
+              <option value="Kruševac">Kruševac</option>
+            </select>
+          </label>
+          <label for="starostPsa">
+            Starost psa (u mesecima):
+            <input type="number" name="starostPsa" id="" />
+          </label>
+          <input type="submit" value="Pošalji" />
+        </form>
+      </section>
+      <section id="proizvodi">
+        <h1>Akcija</h1>
+        <div id="proizvodiWrapper">
+          <div class="proizvod">
+            <img
+              class="proizvodSlika"
+              src="./style/1.jpg"
+              alt="FERPLAST Am za pse Agila Sport ergo sistem za regulaciju Crni
+  
+            "
+            />
+            <div class="proizvodSadrzaj">
+              <h5 class="proizvodIme">
+                FERPLAST Am za pse Agila Sport ergo sistem za regulaciju Crni
+              </h5>
+              <p class="proizvodCena">2.250,00 din</p>
+              <label class="kolicinaLabel" for="kolicina"
+                >Količina
+                <input class="proizvodKolicina" name="kolicina" type="number" />
+                kom.
+              </label>
+              <button>Dodaj u korpu</button>
+            </div>
+          </div>
+          <div class="proizvod">
+            <img
+              class="proizvodSlika"
+              src="./style/2.jpg"
+              alt="DR. CLAUDER’s Hair&Skin, s finim komadićima lososa s pirinčem u pašteti, 100g
+            "
+            />
+            <div class="proizvodSadrzaj">
+              <h5 class="proizvodIme">
+                DR. CLAUDER’s Hair&Skin, s finim komadićima lososa s pirinčem u
+                pašteti, 100g
+              </h5>
+              <p class="proizvodCena">129.00 din</p>
+              <label class="kolicinaLabel" for="kolicina"
+                >Količina
+                <input class="proizvodKolicina" name="kolicina" type="number" />
+                kom.
+              </label>
+              <button>Dodaj u korpu</button>
+            </div>
+          </div>
+          <div class="proizvod">
+            <img
+              class="proizvodSlika"
+              src="./style/3.jpg"
+              alt="CANVIT Barf Silybum Marianum u prahu, podrška jetri, za pse i mačke, 160g
+  
+            "
+            />
+            <div class="proizvodSadrzaj">
+              <h5 class="proizvodIme">
+                CANVIT Barf Silybum Marianum u prahu, podrška jetri, za pse i
+                mačke, 160g
+              </h5>
+              <p class="proizvodCena">129.00 din</p>
+              <label class="kolicinaLabel" for="kolicina"
+                >Količina
+                <input class="proizvodKolicina" name="kolicina" type="number" />
+                kom.
+              </label>
+              <button>Dodaj u korpu</button>
+            </div>
+          </div>
+          <div class="proizvod">
+            <img
+              class="proizvodSlika"
+              src="./style/4.jpg"
+              alt="BRIT CARE Functional poslastica za pse, Recovery s haringom, 150g
+            "
+            />
+            <div class="proizvodSadrzaj">
+              <h5 class="proizvodIme">
+                BRIT CARE Functional poslastica za pse, Recovery s haringom,
+                150g
+              </h5>
+              <p class="proizvodCena">129.00 din</p>
+              <label class="kolicinaLabel" for="kolicina"
+                >Količina
+                <input class="proizvodKolicina" name="kolicina" type="number" />
+                kom.
+              </label>
+              <button>Dodaj u korpu</button>
+            </div>
+          </div>
+          <div class="proizvod">
+            <img
+              class="proizvodSlika"
+              src="./style/5.jpg"
+              alt="ORME NATURALI Beauty Sprej Balsam za pse Detalanging za oštećenu
+              dlaku 125ml
+            "
+            />
+            <div class="proizvodSadrzaj">
+              <h5 class="proizvodIme">
+                ORME NATURALI Beauty Sprej Balsam za pse Detalanging za oštećenu
+                dlaku 125ml
+              </h5>
+              <p class="proizvodCena">1.190,00 din</p>
+              <label class="kolicinaLabel" for="kolicina"
+                >Količina
+                <input class="proizvodKolicina" name="kolicina" type="number" />
+                kom.
+              </label>
+              <button>Dodaj u korpu</button>
+            </div>
+          </div>
+          <div class="proizvod">
+            <img
+              class="proizvodSlika"
+              src="./style/6.jpg"
+              alt="              ASPECT French Bulldog, s lososom i pirinčem
+  
+            "
+            />
+            <div class="proizvodSadrzaj">
+              <h5 class="proizvodIme">
+                ASPECT French Bulldog, s lososom i pirinčem
+              </h5>
+              <p class="proizvodCena">1.990,00 din</p>
+              <label class="kolicinaLabel" for="kolicina"
+                >Količina
+                <input class="proizvodKolicina" name="kolicina" type="number" />
+                kom.
+              </label>
+              <button>Dodaj u korpu</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h1>Vesti</h1>
+      <section id="vesti">
+        <div id="vestiWrapper">
+          <div class="vest">
+            <img
+              class="vestSlika"
+              src="./style/vest1.jpg"
+              alt="Slika
+  
+            "
+            />
+            <div class="vestSadrzaj">
+              <h5 class="naslov">Plan manifestacija za 2020</h5>
+              <p>
+                Zbog novonastale situacije u vezi porasta broja obolelih od
+                Corona virusa-COVID 19 ,Kinološki savez Republike Srbije
+                otkazuje održavanje svih kinoloških manifestacija na teritoriji
+                Republike Srbije do daljnjeg !
+              </p>
+            </div>
+          </div>
+          <div class="vest">
+            <img
+              class="vestSlika"
+              src="./style/vest2.jpg"
+              alt="Slika
+  
+            "
+            />
+            <div class="vestSadrzaj">
+              <h5 class="naslov">Ispiti za kinološke sudije</h5>
+              <p>
+                Obaveštavaju se svi kandidati koji ispunjavaju uslove za
+                polaganje ispita za kinološke sudije ,da prijavu za polaganje,
+                svu potrebnu dokumentaciju i uplatu, dostave kancelariji saveza
+                najkasnije do 10. Juna 2020.godine.
+              </p>
+            </div>
+          </div>
+          <div class="vest">
+            <img
+              class="vestSlika"
+              src="./style/vest3.jpg"
+              alt="Slika
+  
+            "
+            />
+            <div class="vestSadrzaj">
+              <h5 class="naslov">
+                Kinološki savez donirao sredstva za borbu protiv COVID 19
+              </h5>
+              <p>
+                Kinološki savez Republike Srbije donirao je 3.000.000.00 dinara
+                Republičkom fondu za zdravstveno osiguranje za kupovinu
+                respiratora i medicinske opreme.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>Nađa Rajković S3/19</p>
+      <p>Kraljice Katarine 95</p>
+      <p>nrajkovic319s@raf.rs</p>
+      <p>066 100 200</p>
+    </footer>
+  </body>
+</html>
